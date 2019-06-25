@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, createGlobalStyle } from "styled-components";
 
 const AppWrapper = styled.div`
   text-align: center;
@@ -29,6 +29,7 @@ const AppHeader = styled.div`
 `;
 const AppTitle = styled.h1`
   font-size: 1.3em;
+  font-weight: 900;
 `;
 const AppIntro = styled.p`
   font-size: large;
