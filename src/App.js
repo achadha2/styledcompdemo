@@ -43,6 +43,7 @@ function App() {
       </AppHeader>
       <AppTitle>Welcome to react</AppTitle>
       <AppIntro>Testing styled components!</AppIntro>
+      <AppTitle> Components are Great!</AppTitle>
     </AppWrapper>
   );
 }
